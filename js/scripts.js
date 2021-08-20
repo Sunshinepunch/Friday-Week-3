@@ -13,10 +13,21 @@ function roboRog (nombre) {
       arrayNum.push(counter);
       counter++;
   }
-}
-  let neighbor = arrayNum.toString().replace(/[3+]/gi,'"Won\'t you be my neighbor?"');
-  return neighbor;
-}
+} console.log(arrayNum);
+  for(index=0; index <= arrayNum.length; index++) {
+    if (index.toString().includes(3)){
+      arrayNum.toString().replace(/[3]/gi,'"Won\'t you be my neighbor?"')
+      console.log(arrayNum);
+    } else if(index.toString().includes(2)) {
+      arrayNum.toString().replace(/[2]/gi,'Boop!')
+    } else if(index.toString().includes(1)) {
+      arrayNum.toString().replace(/[1]/gi,'Beep!')
+    } else {
+      arrayNum.push(index)
+    }
+  }
+  return arrayNum;
+};
 
 
 
