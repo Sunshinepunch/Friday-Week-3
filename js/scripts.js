@@ -13,8 +13,8 @@ function roboRog (nombre) {
       arrayNum.push(counter);
       counter++;
   }
-} console.log(arrayNum);
-  for(index=0; index <= arrayNum.length; index++) {
+} console.log(arrayNum)
+  for(index=0; index <= numeral; index++) {
     if (index.toString().includes(3)){
       arrayNum.toString().replace(/[3]/gi,'"Won\'t you be my neighbor?"')
       console.log(arrayNum);
