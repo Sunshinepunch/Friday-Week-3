@@ -14,3 +14,7 @@ Expect:
 Describe: roboRog()
 Test: It will return "not a number" if a number is not input
 expect:roboRog(Happy) => Not a number
+
+Describe: roboRog
+Test: it will a string up to the number entered
+Expect:roboRog(5) => "0,1,2,3,4,5"
