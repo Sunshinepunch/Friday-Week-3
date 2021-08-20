@@ -29,6 +29,22 @@ function roboRog (nombre) {
   return arrayNum;
 };
 
+// works but doesnt use the regex I want
+// let arrayNum = [];
+// for (i = 0; i <= number; i++) {
+//   if (i.toString().includes(3)) {
+//     arrayNum.push("Wont you be my neighbor?");
+//   } else if (i.toString().includes(2)) {
+//     arrayNum.push("boop!")
+//   } else if (i.toString().includes(1)) {
+//     arrayNum.push("Beep!")
+//   } else {
+//     arrayNum.push(i);
+//   }
+
+// }
+// return output;
+// };
 
 
 
