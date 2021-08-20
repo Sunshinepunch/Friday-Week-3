@@ -12,4 +12,5 @@ Expect:
 
 
 Describe: roboRog()
-Test: 
+Test: It will return "not a number" if a number is not input
+expect:roboRog(Happy) => Not a number
