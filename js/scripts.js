@@ -12,11 +12,12 @@ function roboRog (nombre) {
     if(counter < numeral) {
       arrayNum.push(counter);
       counter++;
-      console.log(arrayNum);
   }
 }
-  return arrayNum;
+  let neighbor = arrayNum.toString().replace(/[3+]/gi,'"Won\'t you be my neighbor?"');
+  return neighbor;
 }
+
 
 
 
