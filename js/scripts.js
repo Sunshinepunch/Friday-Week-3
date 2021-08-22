@@ -3,7 +3,7 @@
 function roboRog(nombre) {
   let string = nombre.replace(/\D/gi, "NaN.");
   let arrayNum = [];
-  if (string.includes("NaN")) {
+  if (string.includes("NaN") || string.includes('')) {
     return nombre + " is not a number. Try again friend.";
   }
 

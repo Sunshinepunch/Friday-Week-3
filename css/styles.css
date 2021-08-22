@@ -1,0 +1,22 @@
+.container {
+  margin-right: auto;
+  margin-top: 8%;
+  margin-left:auto;
+  width: 50%;
+  border:5px solid black;
+  padding: 10px;
+}
+
+body {
+  background-image: url("../IMG/Rogers.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+
+/* #num-form {
+
+}
+p {
+
+} */

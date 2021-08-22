@@ -36,3 +36,7 @@ expect: roborog(2) => 0,1,"Boop!"
 Describe:roboRog()
 Test: numbers that contain 1 will return as "Beep!"
 Expect: roborog(1) => 0, "Beep!"
+
+Describe:roboRog()
+Test: empty spaces will return as NaN
+Expect:roborog("") => Not a number
