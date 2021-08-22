@@ -1,6 +1,6 @@
 .container {
+  background-color: cornsilk;
   margin-right: auto;
-  margin-top: 8%;
   margin-left:auto;
   width: 50%;
   border:5px solid black;
@@ -8,11 +8,20 @@
 }
 
 body {
-  background-image: url("../IMG/Rogers.jpg");
+  background-image:  url("../IMG/Rogers.jpg");
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: relative;
   background-attachment: fixed;
+  background-size: cover;
+  background-origin:content-box
 }
+
+img {
+  width: 600px;
+  height:auto;
+  position: relative;
+}
+
 
 /* #num-form {
 

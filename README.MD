@@ -30,13 +30,17 @@ Expect:roboRog(13) => 0,1,2,"Won't you be my neighbor?",4,5,6,7,8,9,10,11,12,"Wo
 
 Describe: roboRog()
 test: numbers that contain 2 will return as "Boop!"
-expect: roborog(2) => 0,1,"Boop!"
+expect: roboRog(2) => 0,1,"Boop!"
 
 
 Describe:roboRog()
 Test: numbers that contain 1 will return as "Beep!"
-Expect: roborog(1) => 0, "Beep!"
+Expect: roboRog(1) => 0, "Beep!"
 
 Describe:roboRog()
 Test: empty spaces will return as NaN
-Expect:roborog("") => Not a number
+Expect:roboRog("") => Not a number
+
+Describe:roboRog()
+Test:anything not a number will return as NaN
+Expect:roboRog( ) => Not a number

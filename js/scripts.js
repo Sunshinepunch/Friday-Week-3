@@ -3,19 +3,19 @@
 function roboRog(nombre) {
   let string = nombre.replace(/\D/gi, "NaN.");
   let arrayNum = [];
-  if (string.includes("NaN") || string.includes('')) {
-    return nombre + " is not a number. Try again friend.";
+  if (string.includes("NaN") || string === " ") {
+    return "Hey there! Something you entered is not a number. Try again friend.";
   }
 
   for (i = 0; i <= nombre; i++) {
     if (i.toString().includes(3)) {
-      arrayNum.push("Wont you be my neighbor?");
+      arrayNum.push(" Wont you be my neighbor? ");
     } else if (i.toString().includes(2)) {
-      arrayNum.push("Boop!");
+      arrayNum.push(" Boop! ");
     } else if (i.toString().includes(1)) {
-      arrayNum.push("Beep!");
+      arrayNum.push(" Beep!" );
     } else {
-      arrayNum.push(i);
+      arrayNum.push(i+",");
     }
   }
   return arrayNum;
