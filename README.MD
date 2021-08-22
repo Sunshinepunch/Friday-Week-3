@@ -17,8 +17,17 @@ expect:roboRog(Happy) => Not a number
 
 Describe: roboRog
 Test: it will a string up to the number entered
-Expect:roboRog(5) => "0,1,2,3,4,5"
+Expect:roboRog(5) => 0,1,2,3,4,5
 
 Describe:roboRog()
 Test: numbers that contain 3 will return as "Won't You be my neighbor?"
-Expect:roboRog(13) => "0,1,2,"Won't you be my neighbor?",4,5,6,7,8,9,10,11,12,"Won't you be my neighbor?"
+Expect:roboRog(13) => 0,1,2,"Won't you be my neighbor?",4,5,6,7,8,9,10,11,12,"Won't you be my neighbor?"
+
+Describe: roboRog()
+test: numbers that contain 2 will return as "Boop!"
+expect: roborog(2) => 0,1,"Boop!"
+
+
+Describe:roboRog()
+Test: numbers that contain 1 will return as "Beep!"
+Expect: roborog(1) => 0, "Beep!"
